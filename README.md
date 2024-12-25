@@ -3,6 +3,7 @@
 - 🌱 I’m currently learning on how to properly code...
 - 📫 Contact me on https://facebook.com/jakedev14
 - 🌐 My Replit is https://replit.com/@JakeAsunto
+
 <!---
 JakeAsunto/JakeAsunto is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
@@ -119,20 +120,6 @@ I'm a creator of messenger bots and currently plan to embed it in my own website
 
 ### Anyways, that's all for now...
 
-<div id="time"></div>
-
-<script>
- const time = document.getElementById('time');
- function setTime() {
-    time.textContent = new Date();
- }
- setInterval(() => {
-    setTime();
- }, 1000);
-</script>
-
-#### Thanks for browsing my readme!
-
-# But Please... I Insist Lol 🙌
+### Thanks for browsing my readme!
 
 ## Have a nice day! 🤩🤝
