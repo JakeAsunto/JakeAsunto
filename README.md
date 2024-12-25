@@ -18,7 +18,7 @@ Well, while currently in this situation, the best thing i can do is, wait till i
 
 It started in 2021 on a simple group chat i was added in, i was at first confused on how one user in the gc was replying to me so fast, and later realized it was a chatbot with funny commands and replies, i tried to learn how it worked, till it brought me to one of the tutorials of the first makers, it then brought me to Replit where they share and fork the project containing the code for making a Messenger ChatBot then.
 
-This is a true story and basically how i turned my obsession with computers and games as a kid, into something that'll make me smarter everyday.
+This is a true story and is how i turned my obsession with games and technology as a kid and added coding to my list of advanced technological skills for the 21st century.
 
 I still code till this day, i just don't push it to my GitHub often.
 
