@@ -8,15 +8,18 @@ JakeAsunto/JakeAsunto is a ✨ special ✨ repository because its `README.md` (t
 You can click the Preview link to take a look at your changes.
 --->
 
-# Support/Donate To Me 🙌
+# Take a View of My Coding Journey 🙌
 
-I'm one of those communities who support messenger bots that reply to your message almost instantly...
+I started with making messenger bots from my many fb accounts, and utilized the Facebook-Chat-API that used to work before Meta updated how their API works.
+Also, most of us who create bots utilized the coding platform Replit.it, but unfortunately they've added many restrictions to us free users, that running scripts and code 24/7 in their platform is no longer possible.
 
-If you don't know what that is, i suggest you look into it, maybe you'll like to join and help support our bots lol.
+Well, while currently in this situation, the best thing i can do is, wait till i be 18 and try to support myself in funding for servers to help our community of chatbot creators to deploy and launch their own chatbots, and maybe if i'm getting creative, i'd create new solutions for the chatbot community or even the world, either accidentally or intentionally.
 
-Every donation matters, by donating you help me to do better in my hobbies and projects.
+It started in 2021 on a simple group chat i was added in, i was at first confused on how one user in the gc was replying to me so fast, and later realized it was a chatbot with funny commands and replies, i tried to learn how it worked, till it brought me to one of the tutorials of the first makers, it then brought me to Replit where they share and fork the project containing the code for making a Messenger ChatBot then.
 
-Why? So I'm more inspired to create more projects that's fun 😁
+This is a true story and basically how i turned my obsession with computers and games as a kid, into something that'll make me smarter everyday.
+
+I still code till this day, i just don't push it to my GitHub often.
 
 ### 💬 `Facebook Socials` 🇵🇭
 
@@ -24,11 +27,11 @@ You can find me active on my facebook socials, for any suggestions or help you m
 
 - [Jake Dev](https://www.facebook.com/jakedev14)
 
-- [Jake Asunto](https://www.facebook.com/spidergarlic10) `My Main Account`
+- [Jake Asunto](https://www.facebook.com/100054303594421) `My Main Account`
 
 # My FB Group Chat 💬
 
-### Join my fb group chat if you would like to know about what I'm talking about or to know/use my bots or the bots of the people there...
+### Join our messenger group chat if you would like to know more about our story or to know how to use these messenger chatbots we create...
 
 ## Here are the Links:
 
@@ -52,23 +55,25 @@ You can find me active on my facebook socials, for any suggestions or help you m
 
 - [Chatbot Community Ltd.](https://facebook.com/groups/764724705258553/)
 
-- [Chatbot Community • Global Ltd.](https://facebook.com/groups/178711334798450/)
+- [Chatbot Community • Global](https://facebook.com/groups/178711334798450/)
 
 `Don't worry we know how to speak english here...`
 
 ### 👨‍💻 `My Github` 👨‍💻
 
-This is my only github, follow me now :>
+This is my only github, follow me now to get updated on my future repos :>
 
 ## Github: ➡️ [JakeAsunto](https://github.com/JakeAsunto) ⬅️
 
-### 👨‍💻 `My Replit` 👨‍💻
+### 👨‍💻 `Replit.it Profile` 👨‍💻
 
-This is my only replit, follow me and donate cycles I'm poor lol.
+If you'd like to learn more about it, feel free to browse my replit to view my codes.
+
+`Pardon Me If It's A Bit Messy, I'm A Lazy Guy Lol`
 
 ## Replit: ↪️ [JakeAsunto](https://replit.com/@JakeAsunto) ↩️
 
-# ⌨️ `Just For Fun` 💻
+# ⌨️ `Random Piece of Shi-` 💻
 
 ```JS
 
@@ -110,19 +115,23 @@ console.log(getInfo());
 
 # 🤖 Messenger Bot Creator 💬
 
-I'm also a creator of messenger bots and currently support the enhancement of it's file features...
-
-If you'd like to learn more about it, feel free to browse my replit for some files:
-
-`Pardon Me If It's A Bit Messy, I'm A Lazy Guy Lol`
+I'm a creator of messenger bots and currently plan to embed it in my own website and solve the problem of Facebook accounts getting suspended due to suspicious activity...
 
 ### Anyways, that's all for now...
 
+<div id="time"></div>
+
+<script>
+ const time = document.getElementById('time');
+ function setTime() {
+    time.textContent = new Date();
+ }
+ setInterval(() => {
+    setTime();
+ }, 1000);
+</script>
+
 #### Thanks for browsing my readme!
-
-## And Don't Forget To Donate...
-
-`(Just Kidding Lol You Don't Have To)`
 
 # But Please... I Insist Lol 🙌
 
