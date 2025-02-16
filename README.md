@@ -23,8 +23,8 @@ This is a true story and is how i turned my obsession with games and technology 
 I still code till this day, i just don't push it to my GitHub often.
 
 ![Jake's GitHub stats](https://github-readme-stats.vercel.app/api?username=JakeAsunto&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-<br><br>
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=JakeAsunto&theme=tokyonight&show_icons=true&hide_border=true)
+<br>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=JakeAsunto&theme=tokyonight&show_icons=true&hide_border=true&layout=compact)
 
 ### 💬 `Facebook Socials` 🇵🇭
 
