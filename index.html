@@ -20,9 +20,14 @@
   <div id="error"></div>
 
   <script>
+    function createError(errorMessage) {
+      const $error = $('#error');
+      let newErrorElement = $('<div/>').text(errorMessage);
+      $error.append(newErrorElement)
+    }
+    
     function verify() {
       const $token = $('#token');
-      const $error = $('#error');
       const result = $("#verify-result");
       const token = $("input[name='cf-turnstile-response']").val(); // Get the Turnstile response token
 
@@ -55,9 +60,9 @@
       req.fail(function (xhr, textStatus, errorThrown) {
         result.text("An error occurred during verification.");
         $(function(){
-          // basically using this: $('<element>')
-          let newInputElement = $('<div/>').text(JSON.stringify(xhr.responseJSON));
-          $error.append(newInputElement)
+          if (xhr.responseJSON['error-codes'] && xhr.responseJSON['error-codes'][0] === "timeout-or-duplicate") {
+            createError('This captcha has expired or is already used, try solving again.');
+          }
         })
       });
     }
