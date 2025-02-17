@@ -52,12 +52,11 @@
         }
       });
 
-      req.fail(function (jqXHR, textStatus, errorThrown) {
-        console.log(jqXHR, textStatus, errorThrown);
+      req.fail(function (xhr, textStatus, errorThrown) {
         result.text("An error occurred during verification.");
         $(function(){
           // basically using this: $('<element>')
-          let newInputElement = $('<div/>').text(errorThrown);
+          let newInputElement = $('<div/>').text(JSON.stringify(xhr.responseJSON));
           $error.append(newInputElement)
         })
       });
