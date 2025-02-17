@@ -1,29 +1,53 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  </head>
-  <body>
-    Hello World!<br>
-    Powered By: Cloudflare Workers.
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloudflare Turnstile Demo</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</head>
+<body>
+  <h1>Hello World!</h1>
+  <p>Powered By: Cloudflare Workers.</p>
 
-    <div id="cf-widget">
-      <button onclick="verify()">Verify</button>
-    </div>
+  <div id="cf-widget">
+    <button onclick="verify()">Verify</button>
+  </div>
 
-    <div id="verify-result"></div>
-    <script>
-      function verify() {
-        const req = $.ajax({
-          url: "/",
-          method: "POST"
-        });
+  <div id="verify-result"></div>
 
-        req.done(function (data) {
-          console.log(data);
-          $("#verify-result").text(data);
-        });
+  <script>
+    function verify() {
+      const result = $("#verify-result");
+      const token = $('.cf-turnstile').attr('data-response'); // Get the Turnstile response token
+
+      if (!token) {
+        result.text("Please complete the verification.");
+        return;
       }
-    </script>
-  </body>
+
+      const req = $.ajax({
+        url: "/verify",  // The endpoint to verify the token
+        method: "POST",
+        data: { 'cf-turnstile-response': token },  // Send the token to the server
+        dataType: "json"
+      });
+
+      req.done(function (data) {
+        console.log(data);
+        if (data.success) {
+          result.text("Verification successful!");
+        } else {
+          result.text("Verification failed.");
+        }
+      });
+
+      req.fail(function (jqXHR, textStatus, errorThrown) {
+        console.log(textStatus, errorThrown);
+        result.text("An error occurred during verification.");
+      });
+    }
+  </script>
+</body>
 </html>
