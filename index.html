@@ -40,7 +40,7 @@
       const req = $.ajax({
         url: "/",  // The endpoint to verify the token
         method: "POST",
-        data: JSON.stringify({ 'cf-turnstile-response': token }),  // Send the token to the server
+        data: { 'cf-turnstile-response': token },  // Send the token to the server
         dataType: "json"
       });
 
