@@ -24,6 +24,17 @@
       let newErrorElement = $('<div/>').text(errorMessage);
       $error.append(newErrorElement)
     }
+
+    function reloadCaptcha() {
+      // Ensure that the Turnstile widget is loaded and reset it
+      const turnstileWidget = document.querySelector('.cf-turnstile');
+      if (turnstileWidget) {
+        turnstileWidget.turnstile.reset();  // This resets the widget
+        console.log('Turnstile CAPTCHA has been reloaded.');
+      } else {
+        console.log('Turnstile widget not found.');
+      }
+    }
     
     function verify() {
       const result = $("#verify-result");
@@ -47,6 +58,7 @@
         } else {
           result.text("Verification failed.");
           createError(JSON.stringify(data));
+          reloadCaptcha();
         }
       });
 
@@ -54,7 +66,8 @@
         result.text("An error occurred during verification.");
         $(function(){
           if (xhr.responseJSON['error-codes'] && xhr.responseJSON['error-codes'][0] === "timeout-or-duplicate") {
-            createError('This captcha has expired or is already used, try solving again.');
+            createError('This captcha has expired or is already used, try solving it again.');
+            reloadCaptcha();
           }
         })
       });
