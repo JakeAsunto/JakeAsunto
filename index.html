@@ -20,7 +20,7 @@
   <script>
     function verify() {
       const result = $("#verify-result");
-      const token = $('.cf-turnstile').attr('data-response'); // Get the Turnstile response token
+      const token = $('.cf-turnstile').attr('cf-turnstile-response'); // Get the Turnstile response token
 
       if (!token) {
         result.text("Please complete the verification.");
