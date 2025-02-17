@@ -5,42 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cloudflare Turnstile Demo</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"></script>
 </head>
 <body>
   <h1>Hello World!</h1>
   <p>Powered By: Cloudflare Workers.</p>
 
-  <div id="cf-widget">
-    <button onclick="verify()">Verify</button>
-  </div>
+  <p>This is a managed challenge CAPTCHA.</p>
+  <div id="cf-widget"></div>
+  <button onclick="reloadCaptcha()">Reload Captcha</button>
 
   <div id="verify-result"></div>
   <div id="error"></div>
 
   <script>
-    function createError(errorMessage) {
+    // if using synchronous loading, will be called once the DOM is ready
+    turnstile.ready(function () {
+      window.widgetID = turnstile.render("#cf-widget", {
+        sitekey: "0x4AAAAAAA0yIwh7vyj8kIXF",
+        callback: function (token) {
+          verify(token);
+          console.log(`Challenge Success ${token}`);
+        },
+      });
+    });
+  </script>
+
+  <script>
+    function createError(errorMessage = 'Unknown Error.') {
       const $error = $('#error');
-      let newErrorElement = $('<div/>').text(errorMessage);
-      $error.append(newErrorElement)
+      $error.text(errorMessage);
+    }
+
+    function clearErrors() {
+      const $error = $('#error');
+      $error.text('');
     }
 
     function reloadCaptcha() {
-      // Ensure that the Turnstile widget is loaded and reset it
-      const turnstileWidget = document.querySelector('.cf-turnstile');
-      if (turnstileWidget) {
-        turnstileWidget.turnstile.reset();  // This resets the widget
-        console.log('Turnstile CAPTCHA has been reloaded.');
-      } else {
-        console.log('Turnstile widget not found.');
-      }
+      clearErrors();
+      turnstile.reset(window.widgetID);
+      console.log('Captcha Reloaded!');
+      return;
     }
     
-    function verify() {
+    function verify(token) {
       const result = $("#verify-result");
-      const token = $("input[name='cf-turnstile-response']").val(); // Get the Turnstile response token
-
-      if (!token) {
+      
+      if (window.widgetID && !token) {
         result.text("Please complete the verification.");
         return;
       }
