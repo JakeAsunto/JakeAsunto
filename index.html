@@ -27,10 +27,12 @@
         return;
       }
 
+      $.parseHTML(`<div id="logs-2">${token}</div>`).appendTo('#verify-result');
+
       const req = $.ajax({
         url: "/verify",  // The endpoint to verify the token
         method: "POST",
-        data: { 'cf-turnstile-response': token },  // Send the token to the server
+        data: JSON.stringify({ 'cf-turnstile-response': token }),  // Send the token to the server
         dataType: "json"
       });
 
