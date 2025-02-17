@@ -37,13 +37,15 @@
       $error.text(errorMessage);
     }
 
-    function clearErrors() {
+    function clearLogs() {
       const $error = $('#error');
+      const $result = $("#verify-result");
       $error.text('');
+      $result.text('');
     }
 
     function reloadCaptcha() {
-      clearErrors();
+      clearLogs();
       turnstile.reset(window.widgetID);
       console.log('Captcha Reloaded!');
       return;
