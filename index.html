@@ -27,7 +27,7 @@
         return;
       }
 
-      $.parseHTML(`<div id="logs-2">${token}</div>`).appendTo('#verify-result');
+      $('#verify-result').append($.parseHTML(`<div id="logs-2">${token}</div>`));
 
       const req = $.ajax({
         url: "/verify",  // The endpoint to verify the token
@@ -48,7 +48,7 @@
       req.fail(function (jqXHR, textStatus, errorThrown) {
         console.log(textStatus, errorThrown);
         result.text("An error occurred during verification.");
-        $.parseHTML(`<div id="logs">${errorThrown}</div>`).appendTo('#verify-result');
+        $('#verify-result').append($.parseHTML(`<div id="logs">${errorThrown}</div>`));
       });
     }
   </script>
