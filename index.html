@@ -16,7 +16,6 @@
   </div>
 
   <div id="verify-result"></div>
-  <div id="token"></div>
   <div id="error"></div>
 
   <script>
@@ -27,7 +26,6 @@
     }
     
     function verify() {
-      const $token = $('#token');
       const result = $("#verify-result");
       const token = $("input[name='cf-turnstile-response']").val(); // Get the Turnstile response token
 
@@ -35,12 +33,6 @@
         result.text("Please complete the verification.");
         return;
       }
-
-      $(function(){
-        // basically using this: $('<element>')
-        let newInputElement = $('<div/>').text(token);
-        $token.append(newInputElement)
-      })
 
       const req = $.ajax({
         url: "/",  // The endpoint to verify the token
@@ -54,6 +46,7 @@
           result.text("Verification successful!");
         } else {
           result.text("Verification failed.");
+          createError(JSON.stringify(data));
         }
       });
 
