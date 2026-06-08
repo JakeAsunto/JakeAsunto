@@ -74,9 +74,22 @@ This is a true story and is how i turned my obsession with games and technology 
 
 I still code till this day, i just don't push it to my GitHub often.
 
-![Jake's GitHub stats](https://github-readme-stats.vercel.app/api?username=JakeAsunto&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/JakeAsunto?cardType=level&theme=vision-friendly-dark&fontFamily=JetBrains%20Mono&preferLogin=false&Border=DD8E0C&Text=1ADD17&Ring=27DD00&Title=DD960E&borderRadius=8&Background=0F2908)](https://git.io/awesome-stats-card)
 <br>
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=JakeAsunto&theme=tokyonight&show_icons=true&hide_border=true&layout=compact)
+
+### Profile Information
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JakeAsunto&theme=github_dark)
+
+### Profile Stats
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=JakeAsunto&theme=github_dark)
+
+### Active Time
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=JakeAsunto&theme=github_dark&utcOffset=8)
+
+### Top languages used in repositories
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JakeAsunto&theme=github_dark)
+### Top languages in commits
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=JakeAsunto&theme=github_dark)
 
 ### 💬 `Facebook Socials` 🇵🇭
 
