@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @JakeAsunto
 - 👀 I’m interested in Coding...
-- 🌱 I’m currently learning on how to properly code...
+- 🌱 I’m improving my IT skills everyday...
 - 📫 Contact me on https://facebook.com/jakedev14
 - 🌐 My Replit is https://replit.com/@JakeAsunto
 
@@ -8,6 +8,48 @@
 JakeAsunto/JakeAsunto is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+## Fun Technologies I Encountered
+<p>
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/android-icon.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/bash.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/docker-icon.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/git-icon.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/github-icon.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/google-icon.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/linux-tux.svg" width="24px" height="24px" />
+  <img
+    src="https://github.com/get-icon/geticon/raw/master/icons/microsoft-windows.svg"
+    width="24px"
+    height="24px"
+  />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/mongodb-icon.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/nginx-icon.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/nodejs-icon.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/c-plusplus.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/npm.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/prettier.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/puppeteer.svg" width="24px" height="24px" />
+  <img
+    src="https://github.com/get-icon/geticon/raw/master/icons/typescript-icon.svg"
+    width="24px"
+    height="24px"
+  />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/ubuntu.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/webpack.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/es6.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/graphql.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/jquery-icon.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/cloudflare.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/nestjs.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/svelte-icon.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/vue.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/tailwindcss-icon.svg" width="24px" height="24px" />
+</p>
 
 # Take a View of My Coding Journey 🙌
 
@@ -34,22 +76,6 @@ You can find me active on my facebook socials, for any suggestions or help you m
 
 - [Jake Asunto](https://www.facebook.com/100054303594421) `My Main Account`
 
-# My FB Group Chat 💬
-
-### Join our messenger group chat if you would like to know more about our story or to know how to use these messenger chatbots we create...
-
-## Here are the Links:
-
-- [ChatBot Forum Ltd.](https://m.me/j/Aba9tAyHyaPQ8i8y/)
-
-- [OpenAI Global Forum Ltd.](https://m.me/j/AbYqc1TgZ1YhZMPP/)
-
-## Join the bot community...
-
-- [Jake's Bot Community](https://m.me/j/AbZIrLHS2mtVycs9/)
-
-- [Jake's Bot Community 2](https://m.me/j/AbbxYwLobzAYAujH/)
-
 # 👥 Our Facebook Group 💬
 
 ## Join our active community of people
@@ -64,13 +90,13 @@ You can find me active on my facebook socials, for any suggestions or help you m
 
 `Don't worry we know how to speak english here...`
 
-### 👨‍💻 `My Github` 👨‍💻
+## 👨‍💻 `My Github` 👨‍💻
 
 This is my only github, follow me now to get updated on my future repos :>
 
-## Github: ➡️ [JakeAsunto](https://github.com/JakeAsunto) ⬅️
+- ➡️ [JakeAsunto](https://github.com/JakeAsunto) ⬅️
 
-### 👨‍💻 `Replit.it Profile` 👨‍💻
+## 👨‍💻 `Replit.it Profile` 👨‍💻
 
 If you'd like to learn more about it, feel free to browse my replit to view my codes.
 
@@ -78,51 +104,9 @@ If you'd like to learn more about it, feel free to browse my replit to view my c
 
 ## Replit: ↪️ [JakeAsunto](https://replit.com/@JakeAsunto) ↩️
 
-# ⌨️ `Random Piece of Shi-` 💻
-
-```JS
-
-// JSON data...
-
-var deetah = {
-
-name: 'Jake Asunto',
-
-age: 'Secret',
-
-genderOrSegs: 'Male',
-
-countryOrigin: 'Philippines',
-
-hobbies: 'obviously coding...',
-
-futureCourse: 'Idk yet tbh, its so complicated lol what course should i go for?'
-
-};
-
-// parse it
-
-const getTheData = JSON.parse(JSON.stringify(deetah));
-
-// make it a func
-
-function getInfo() {
-
- return getTheData
-
-}
-
-/* show the results */
-
-console.log(getInfo());
-
-```
-
 # 🤖 Messenger Bot Creator 💬
 
-I'm a creator of messenger bots and currently plan to embed it in my own website and solve the problem of Facebook accounts getting suspended due to suspicious activity...
-
-### Anyways, that's all for now...
+I'm a creator of messenger bots and currently plan to embed it in my own website and solve the problem of Facebook accounts getting suspended.. lol
 
 ### Thanks for browsing my readme!
 
