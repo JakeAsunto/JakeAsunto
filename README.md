@@ -44,11 +44,21 @@ You can click the Preview link to take a look at your changes.
   <img src="https://github.com/get-icon/geticon/raw/master/icons/jquery-icon.svg" width="24px" height="24px" />
   <img src="https://github.com/get-icon/geticon/raw/master/icons/cloudflare.svg" width="24px" height="24px" />
   <img src="https://github.com/get-icon/geticon/raw/master/icons/nestjs.svg" width="24px" height="24px" />
+  <img src="https://github.com/xandemon/developer-icons/blob/main/icons/nextjs.svg" width="24px" height="24px" />
   <img src="https://github.com/get-icon/geticon/raw/master/icons/svelte-icon.svg" width="24px" height="24px" />
   <img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" width="24px" height="24px" />
   <img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" width="24px" height="24px" />
   <img src="https://github.com/get-icon/geticon/raw/master/icons/vue.svg" width="24px" height="24px" />
   <img src="https://github.com/get-icon/geticon/raw/master/icons/tailwindcss-icon.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/esbuild.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/facebook.svg" width="24px" height="24px" />
+  <img src="https://github.com/get-icon/geticon/raw/master/icons/facebook-messenger.svg" width="24px" height="24px" />
+  <img src="https://github.com/mqtt/mqttorg-graphics/blob/master/svg/mqtt-ver.svg" width="24px" height="24px" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" width="24px" height="24px" />
+  <img src="https://github.com/xandemon/developer-icons/blob/main/icons/postgresql.svg" width="24px" height="24px" />
+  <img src="https://github.com/xandemon/developer-icons/blob/main/icons/pnpm-dark.svg" width="24px" height="24px" />
+  <img src="https://github.com/xandemon/developer-icons/blob/main/icons/powershell.svg" width="24px" height="24px" />
+  <img src="https://github.com/xandemon/developer-icons/blob/main/icons/qwik.svg" width="24px" height="24px" />
 </p>
 
 # Take a View of My Coding Journey 🙌
