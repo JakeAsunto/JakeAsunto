@@ -9,7 +9,7 @@ JakeAsunto/JakeAsunto is a ✨ special ✨ repository because its `README.md` (t
 You can click the Preview link to take a look at your changes.
 --->
 
-## Fun Technologies I Encountered
+## Fun Technologies I Encountered So Far
 <p>
   <img src="https://github.com/get-icon/geticon/raw/master/icons/android-icon.svg" width="24px" height="24px" />
   <img src="https://github.com/get-icon/geticon/raw/master/icons/bash.svg" width="24px" height="24px" />
