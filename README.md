@@ -18,15 +18,17 @@
 
 ### Backend
 <p>
-  <img src="https://github.com/get-icon/geticon/raw/master/icons/nodejs-icon.svg" width="24px" height="24px" />
-  <img src="https://github.com/get-icon/geticon/raw/master/icons/nestjs.svg" width="24px" height="24px" />
-  <img src="https://github.com/get-icon/geticon/raw/master/icons/bash.svg" width="24px" height="24px" />
-  <img
+   <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg" width="24px" height="24px" />
+   <img src="https://github.com/get-icon/geticon/raw/master/icons/graphql.svg" width="25px" height="25px" />
+   <img src="https://github.com/get-icon/geticon/raw/master/icons/nodejs-icon.svg" width="24px" height="24px" />
+   <img src="https://github.com/get-icon/geticon/raw/master/icons/nestjs.svg" width="24px" height="24px" />
+   <img src="https://github.com/get-icon/geticon/raw/master/icons/bash.svg" width="24px" height="24px" />
+   <img
     src="https://github.com/get-icon/geticon/raw/master/icons/typescript-icon.svg"
     width="24px"
     height="24px"
-  />
-  <img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" width="24px" height="24px" />
+   />
+   <img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" width="24px" height="24px" />
 </p>
 
 ### Frontend
@@ -38,6 +40,7 @@
   <img src="https://github.com/xandemon/developer-icons/blob/main/icons/nextjs.svg" width="24px" height="24px" />
   <img src="https://github.com/get-icon/geticon/raw/master/icons/vue.svg" width="24px" height="24px" />
   <img src="https://github.com/xandemon/developer-icons/blob/main/icons/qwik.svg" width="24px" height="24px" />
+  <img src="https://www.solidjs.com/img/logo/without-wordmark/logo.svg" width="24px" height="24px" />
   <img src="https://github.com/get-icon/geticon/raw/master/icons/tailwindcss-icon.svg" width="24px" height="24px" />
 </p>
 
@@ -61,34 +64,32 @@
   <img src="https://github.com/xandemon/developer-icons/blob/main/icons/powershell.svg" width="24px" height="24px" />
 </p>
 
-### API Communication Protocol
-<p>
-  <img src="https://github.com/get-icon/geticon/raw/master/icons/graphql.svg" width="30px" height="30px" />
-</p>
-
 ### Systems/Low-Level
 <p>
-  <img
+   <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/windows-xp.png" width="26px" height="24px" />
+   <img src="https://upload.wikimedia.org/wikipedia/de/c/c2/Microsoft_Windows_7_logo.svg" width="28px" height="24px" />
+   <img
     src="https://github.com/get-icon/geticon/raw/master/icons/microsoft-windows.svg"
     width="24px"
     height="24px"
-  />
-  <img src="https://github.com/get-icon/geticon/raw/master/icons/linux-tux.svg" width="24px" height="24px" />
-  <img src="https://github.com/get-icon/geticon/raw/master/icons/c-plusplus.svg" width="24px" height="24px" />
+   />
+   <img src="https://github.com/get-icon/geticon/raw/master/icons/linux-tux.svg" width="24px" height="24px" />
+   <img src="https://github.com/get-icon/geticon/raw/master/icons/c-plusplus.svg" width="24px" height="24px" />
+   <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" width="24px" height="24px" />
+   <img src="https://github.com/get-icon/geticon/raw/master/icons/ubuntu.svg" width="24px" height="24px" />
+   <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Linux_Mint_logo_without_wordmark.svg" width="24px" height="24px" />
+   <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Openlogo-debianV2.svg" width="24px" height="24px" />
+   <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Zorin_Logomark.svg" width="24px" height="24px" />
 </p>
 
 ### Miscellaneous
 <p>
-  <img src="https://github.com/get-icon/geticon/raw/master/icons/es6.svg" width="24px" height="24px" />
   <img src="https://github.com/get-icon/geticon/raw/master/icons/android-icon.svg" width="24px" height="24px" />
   <img src="https://github.com/get-icon/geticon/raw/master/icons/google-icon.svg" width="24px" height="24px" />
-  
-  <img src="https://github.com/get-icon/geticon/raw/master/icons/ubuntu.svg" width="24px" height="24px" />
-  
-  
   <img src="https://github.com/get-icon/geticon/raw/master/icons/facebook.svg" width="24px" height="24px" />
   <img src="https://github.com/get-icon/geticon/raw/master/icons/facebook-messenger.svg" width="24px" height="24px" />
   <img src="https://github.com/mqtt/mqttorg-graphics/blob/master/svg/mqtt-ver.svg" width="24px" height="24px" />
+  <img src="https://cheerio.js.org/_astro/orange-c.C2HK-Zjb_SMe1d.svg" width="24px" height="24px" />
 </p>
 
 ---
